@@ -1559,8 +1559,6 @@ options.status.caret.virtual=Afficher la distance virtuelle entre le curseur et 
 options.status.caret.offset=Afficher la distance entre le curseur et le début du fichier
 options.status.caret.bufferlength=Afficher la longueur du fichier
 options.status.caret.title=Option d'affichage de la position du curseur :
-options.status.caret.numwordsoffset=Afficher le nombre de mots décalés du début au curseur
-options.status.caret.numtotalwords=Afficher le nombre total de mots sur la page actuelle
 #}}}
 
 #{{{ Syntax Highlighting pane

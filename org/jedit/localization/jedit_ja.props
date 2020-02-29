@@ -1559,8 +1559,6 @@ options.status.caret.virtual=行頭からのキャレット仮想位置を表示
 options.status.caret.offset=ファイル先頭からのキャレット位置を表示
 options.status.caret.bufferlength=ファイル長を表示
 options.status.caret.title=キャレット位置表示オプション:
-options.status.caret.numwordsoffset=先頭からキャレットまでのオフセット単語数を表示する
-options.status.caret.numtotalwords=現在のページの総単語数を表示する
 #}}}
 
 #{{{ Syntax Highlighting pane

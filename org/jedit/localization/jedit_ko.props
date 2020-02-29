@@ -1532,8 +1532,6 @@ options.status.caret.virtual=커서의 가상 위치 표시
 options.status.caret.offset=커서의 파일내 위치 표시
 options.status.caret.bufferlength=파일 길이 표시
 options.status.caret.title=커서 위치 표시 설정:
-options.status.caret.numwordsoffset=처음부터 캐럿까지 오프셋 된 단어 수 표시
-options.status.caret.numtotalwords=현재 페이지에 총 단어 수 표시
 #}}}
 
 #{{{ Syntax Highlighting pane

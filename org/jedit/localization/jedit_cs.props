@@ -1565,8 +1565,6 @@ options.status.caret.virtual=Zobrazit virtuální posun kurzoru od počátku ř�
 options.status.caret.offset=Zobrazit posun kurzoru od počátku souboru
 options.status.caret.bufferlength=Zobrazit délku souboru
 options.status.caret.title=Možnosti zobrazení pozice kurzoru:
-options.status.caret.numwordsoffset=Zobrazit počet slov posunutých od začátku do stříšky
-options.status.caret.numtotalwords=Zobrazit celkový počet slov na aktuální stránce
 #}}}
 
 #{{{ Syntax Highlighting pane

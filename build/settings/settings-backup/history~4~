@@ -1,9 +1,0 @@
-[action]
-insert-newline-indent
-backspace
-undo
-prev-char
-next-char
-delete
-insert-tab-indent
-global-options

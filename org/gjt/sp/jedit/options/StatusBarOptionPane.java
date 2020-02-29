@@ -129,19 +129,11 @@ public class StatusBarOptionPane extends AbstractOptionPane
 		showCaretBufferLength = new JCheckBox(jEdit.getProperty("options.status.caret.bufferlength", "Show length of file"),
 			jEdit.getBooleanProperty("view.status.show-caret-bufferlength", true));
 		showCaretBufferLength.setName("showCaretBufferLength");
-		showCaretNumWordsOffset = new JCheckBox(jEdit.getProperty("options.status.caret.numwordsoffset", "Show number of words offset to the caret"),
-				jEdit.getBooleanProperty("view.status.show-caret-numberwordsoffset", true));
-		showCaretNumWordsOffset.setName("view.status.show-caret-numberwordsoffset");
-		showNumTotalWords = new JCheckBox(jEdit.getProperty("options.status.caret.numtotalwords", "Show number of total words in the file"),
-				jEdit.getBooleanProperty("view.status.show-caret-numbertotalwords", true));
-		showNumTotalWords.setName("view.status.show-caret-numbertotalwords");
 		optionsPanel.addComponent(showCaretLineNumber);
 		optionsPanel.addComponent(showCaretDot);
 		optionsPanel.addComponent(showCaretVirtual);
 		optionsPanel.addComponent(showCaretOffset);
 		optionsPanel.addComponent(showCaretBufferLength);
-		optionsPanel.addComponent(showCaretNumWordsOffset);
-		optionsPanel.addComponent(showNumTotalWords);
 
 		//}}}
 
@@ -245,8 +237,6 @@ public class StatusBarOptionPane extends AbstractOptionPane
 		jEdit.setBooleanProperty("view.status.show-caret-virtual", showCaretVirtual.isSelected());
 		jEdit.setBooleanProperty("view.status.show-caret-offset", showCaretOffset.isSelected());
 		jEdit.setBooleanProperty("view.status.show-caret-bufferlength", showCaretBufferLength.isSelected());
-		jEdit.setBooleanProperty("view.status.show-caret-numberwordsoffset", showCaretNumWordsOffset.isSelected());
-		jEdit.setBooleanProperty("view.status.show-caret-numbertotalwords", showNumTotalWords.isSelected());
 
 	} //}}}
 
@@ -272,8 +262,6 @@ public class StatusBarOptionPane extends AbstractOptionPane
 	private JCheckBox showCaretVirtual;
 	private JCheckBox showCaretOffset;
 	private JCheckBox showCaretBufferLength;
-	private JCheckBox showCaretNumWordsOffset;
-	private JCheckBox showNumTotalWords;
 	//}}}
 
 	//{{{ updateButtons() method

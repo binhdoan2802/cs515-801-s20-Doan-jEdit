@@ -1793,8 +1793,6 @@ options.status.caret.virtual=Show caret virtual offset from start of line
 options.status.caret.offset=Show caret offset from start of file
 options.status.caret.bufferlength=Show length of file
 options.status.caret.title=Caret position display options:
-options.status.caret.numwordsoffset=Show number of words offset from start to the caret
-options.status.caret.numtotalwords=Show number of total words in the file
 #}}}
 
 #{{{ Syntax Highlighting pane
