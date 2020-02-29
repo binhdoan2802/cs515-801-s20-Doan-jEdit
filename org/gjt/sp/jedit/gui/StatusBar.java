@@ -334,6 +334,21 @@ public class StatusBar extends JPanel
 		panel.add(BorderLayout.CENTER, messageComp);
 	} //}}}
 
+	public int countWordsOffset(String wordsOffset)
+	{
+		int numberOfWordsOffset = 0;	
+		String arrayOfString[] = wordsOffset.split(" |\\t|\\n", 0);	// limit-0 to discard empty trailing strings
+
+		for ( int idx = 0; idx < arrayOfString.length; idx++ )
+		{
+			if ( !arrayOfString[idx].isEmpty() )
+			{
+				numberOfWordsOffset++;
+			}
+		}
+		return numberOfWordsOffset;
+	}
+	
 	//{{{ updateCaretStatus() method
 	/** Updates the status bar with information about the caret position, line number, etc */
 	public void updateCaretStatus()
@@ -416,6 +431,41 @@ public class StatusBar extends JPanel
 			{
 				buf.append('(');
 				buf.append(bufferLength);
+				buf.append(')');
+			}
+			if (jEdit.getBooleanProperty("view.status.show-caret-numberwordsoffset", true))
+			{
+				int numWordsOffset = 0;
+				if (bufferLength > 0)
+				{
+					// also count a character to the left of the caret
+					int wordsOffsetLength = caretPosition + 1;
+					
+					if (wordsOffsetLength > bufferLength)
+					{
+						wordsOffsetLength = bufferLength;
+					}
+					else if (wordsOffsetLength < 0)
+					{
+						wordsOffsetLength = 0;
+					}
+					String wordsOffset = buffer.getText(0, wordsOffsetLength);
+					numWordsOffset = countWordsOffset(wordsOffset);
+				}	
+				buf.append('(');
+				buf.append(numWordsOffset);
+				buf.append(')');
+			}
+			if (jEdit.getBooleanProperty("view.status.show-caret-numbertotalwords", true))
+			{
+				int numTotalWords = 0;
+				if (bufferLength > 0)
+				{
+					String fullContent = buffer.getText(0, bufferLength);
+					numTotalWords = countWordsOffset(fullContent);
+				}
+				buf.append('(');
+				buf.append(numTotalWords);
 				buf.append(')');
 			}
 

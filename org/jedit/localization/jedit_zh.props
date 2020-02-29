@@ -1545,6 +1545,8 @@ options.status.caret.virtual=显示从行首开始的插入符虚拟偏离
 options.status.caret.offset=显示从文件首开始的插入符偏离
 options.status.caret.bufferlength=显示文件长度
 options.status.caret.title=光标位置显示选项:
+options.status.caret.numwordsoffset=顯示從開始到插入符號的單詞偏移量
+options.status.caret.numtotalwords=顯示當前頁面上的總單詞數
 #}}}
 
 #{{{ Syntax Highlighting pane
