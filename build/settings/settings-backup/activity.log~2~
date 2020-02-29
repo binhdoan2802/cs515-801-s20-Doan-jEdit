@@ -1,0 +1,245 @@
+Log file created on Sat Feb 29 11:45:04 CST 2020
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+11:45:03 AM [main] [message] Log: When reporting bugs, please include the following information:
+11:45:03 AM [main] [message] Log: java.version=1.8.0_241
+11:45:03 AM [main] [message] Log: java.vm.version=25.241-b07
+11:45:03 AM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+11:45:03 AM [main] [message] Log: java.runtime.version=1.8.0_241-b07
+11:45:03 AM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+11:45:03 AM [main] [message] Log: java.vendor=Oracle Corporation
+11:45:03 AM [main] [message] Log: java.compiler=null
+11:45:03 AM [main] [message] Log: os.name=Windows 10
+11:45:03 AM [main] [message] Log: os.version=10.0
+11:45:03 AM [main] [message] Log: os.arch=amd64
+11:45:03 AM [main] [message] Log: user.home=C:\Users\binhd
+11:45:03 AM [main] [message] Log: java.home=C:\Program Files\Java\jdk1.8.0_241\jre
+11:45:03 AM [main] [message] Log: java.class.path=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jedit.jar
+11:45:03 AM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build/settings
+11:45:03 AM [main] [debug] jEdit: before splash screen activation:108 ms
+11:45:04 AM [main] [debug] jEdit: after splash screen activation:549 ms
+11:45:04 AM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\activity.log" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\activity.log~1~"
+11:45:04 AM [main] [notice] jEdit: jEdit version 5.5.0
+11:45:04 AM [main] [message] jEdit: Settings directory is C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings
+11:45:04 AM [main] [message] jEdit: jEdit home directory is C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build
+11:45:04 AM [main] [debug] SplashScreen: init:29/298ms
+11:45:04 AM [main] [debug] SplashScreen: init system properties:50/348ms
+11:45:04 AM [main] [message] BeanShell: Beanshell Init
+11:45:04 AM [main] [debug] SplashScreen: init beanshell:77/425ms
+11:45:04 AM [main] [debug] SplashScreen: loading site properties:13/438ms
+11:45:04 AM [main] [debug] SplashScreen: loading user properties:27/465ms
+11:45:04 AM [main] [debug] GUIUtilities: Icon theme set to: tango
+11:45:04 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+11:45:04 AM [main] [debug] SplashScreen: init GUI:8/473ms
+11:45:04 AM [main] [debug] EditServer: jEdit server started on port 51406
+11:45:04 AM [main] [debug] EditServer: Authorization key is 1732813776
+11:45:04 AM [main] [debug] SplashScreen: init server:17/490ms
+11:45:04 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+11:45:04 AM [main] [debug] SplashScreen: init look and feel:9/499ms
+11:45:04 AM [main] [debug] SplashScreen: init VFS Manager:3/502ms
+11:45:04 AM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/binhd/Documents/GitHub/cs515-801-s20-Doan-jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+11:45:04 AM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/binhd/Documents/GitHub/cs515-801-s20-Doan-jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+11:45:04 AM [main] [debug] SplashScreen: init resources:207/709ms
+11:45:04 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+11:45:04 AM [main] [debug] SplashScreen: Migrate keymaps:99/808ms
+11:45:04 AM [main] [notice] jEdit: Loading plugins from C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:45:05 AM [main] [notice] jEdit: Loading plugins from C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\jars
+11:45:05 AM [main] [debug] SplashScreen: init plugins:27/835ms
+11:45:05 AM [main] [message] HistoryModel: Loading history
+11:45:05 AM [main] [debug] SplashScreen: init history model:6/841ms
+11:45:05 AM [main] [message] BufferHistory: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml
+11:45:05 AM [main] [debug] SplashScreen: init buffer history:17/858ms
+11:45:05 AM [main] [message] KillRing: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml
+11:45:05 AM [main] [debug] SplashScreen: init killring:25/883ms
+11:45:05 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+11:45:05 AM [main] [debug] jEdit: SOCKS proxy disabled
+11:45:05 AM [main] [debug] jEdit: HTTP proxy disabled
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+11:45:05 AM [main] [debug] SplashScreen: init various properties:80/963ms
+11:45:05 AM [main] [message] jEdit: Loading mode catalog file C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\modes\catalog
+11:45:05 AM [main] [message] jEdit: Loading mode catalog file C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\modes\catalog
+11:45:05 AM [main] [debug] SplashScreen: init modes:67/1030ms
+11:45:05 AM [main] [debug] SplashScreen: activate plugins:6/1036ms
+11:45:05 AM [main] [debug] Macros: Registered beanshell macro handler
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+11:45:05 AM [main] [debug] SplashScreen: init macros:34/1070ms
+11:45:05 AM [main] [message] BeanShell: Running script C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\startup\startup.bsh
+11:45:05 AM [main] [notice] jEdit$5: Loading edit mode C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\modes\text.xml
+11:45:05 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+11:45:05 AM [main] [debug] SplashScreen: run startup scripts:211/1281ms
+11:45:05 AM [main] [debug] SplashScreen: run startup scripts:2/1283ms
+11:45:05 AM [main] [debug] SplashScreen: run startup scripts:3/1284ms
+11:45:05 AM [main] [debug] jEdit: main done:1598 ms
+11:45:05 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:45:05 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:45:05 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),-1)
+11:45:05 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: Buffer added Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\) at 0
+11:45:05 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:45:05 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),0)
+11:45:05 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),1)
+11:45:06 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+11:45:06 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+11:45:06 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2407 ms
+11:45:06 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:45:06 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+11:45:17 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:45:35 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\perspective.xml~1~"
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NullPointerException
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at sun.awt.windows.WInputMethod$1.run(WInputMethod.java:592)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+11:45:40 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11:45:40 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:45:40 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NullPointerException
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at sun.awt.windows.WInputMethod$1.run(WInputMethod.java:592)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+11:45:46 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11:45:46 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:45:46 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+11:45:46 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea: java.lang.ArrayIndexOutOfBoundsException: 0:120
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.buffer.JEditBuffer.getText(JEditBuffer.java:603)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus(StatusBar.java:440)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.View$CaretHandler.caretUpdate(View.java:2178)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.fireCaretEvent(TextArea.java:5375)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea._finishCaretUpdate(TextArea.java:5182)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.finishCaretUpdate(TextArea.java:5361)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.moveCaretPosition(TextArea.java:2299)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleClick(TextAreaMouseHandler.java:208)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.MouseHandler.mousePressed(MouseHandler.java:129)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:279)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.processMouseEvent(Component.java:6536)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.processEvent(Component.java:6304)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.processEvent(Container.java:2239)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEvent(Component.java:4711)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEvent(Component.java:4711)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea: java.lang.ArrayIndexOutOfBoundsException: 0:120
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.buffer.JEditBuffer.getText(JEditBuffer.java:603)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus(StatusBar.java:440)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.View$CaretHandler.caretUpdate(View.java:2178)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.fireCaretEvent(TextArea.java:5375)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea._finishCaretUpdate(TextArea.java:5182)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.finishCaretUpdate(TextArea.java:5361)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.setSelection(TextArea.java:1789)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextArea.selectNone(TextArea.java:1761)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleClick(TextAreaMouseHandler.java:213)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at org.gjt.sp.jedit.textarea.MouseHandler.mousePressed(MouseHandler.java:129)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:279)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.processMouseEvent(Component.java:6536)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.processEvent(Component.java:6304)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.processEvent(Container.java:2239)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.dispatchEventImpl(Container.java:2297)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEvent(Component.java:4711)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Container.dispatchEventImpl(Container.java:2283)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.Component.dispatchEvent(Component.java:4711)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.AccessController.doPrivileged(Native Method)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+11:45:46 AM [AWT-EventQueue-0] [error] JEditTextArea:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11:45:51 AM [AWT-EventQueue-0] [debug] PluginJAR: Opening C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar
+11:45:51 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+11:46:08 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml
+11:46:08 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\perspective.xml~1~"
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+11:46:08 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: Buffer removed Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)
+11:46:08 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\) is in no bufferSet anymore, closing it
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:46:08 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:46:08 AM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml
+11:46:08 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\recent.xml~1~"
+11:46:08 AM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml
+11:46:08 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\killring.xml~1~"
+11:46:08 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\properties" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\properties~1~"

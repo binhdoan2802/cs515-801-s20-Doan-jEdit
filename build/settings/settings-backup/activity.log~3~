@@ -1,0 +1,134 @@
+Log file created on Sat Feb 29 11:37:28 CST 2020
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+11:37:28 AM [main] [message] Log: When reporting bugs, please include the following information:
+11:37:28 AM [main] [message] Log: java.version=1.8.0_241
+11:37:28 AM [main] [message] Log: java.vm.version=25.241-b07
+11:37:28 AM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+11:37:28 AM [main] [message] Log: java.runtime.version=1.8.0_241-b07
+11:37:28 AM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+11:37:28 AM [main] [message] Log: java.vendor=Oracle Corporation
+11:37:28 AM [main] [message] Log: java.compiler=null
+11:37:28 AM [main] [message] Log: os.name=Windows 10
+11:37:28 AM [main] [message] Log: os.version=10.0
+11:37:28 AM [main] [message] Log: os.arch=amd64
+11:37:28 AM [main] [message] Log: user.home=C:\Users\binhd
+11:37:28 AM [main] [message] Log: java.home=C:\Program Files\Java\jdk1.8.0_241\jre
+11:37:28 AM [main] [message] Log: java.class.path=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jedit.jar
+11:37:28 AM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build/settings
+11:37:28 AM [main] [debug] jEdit: before splash screen activation:57 ms
+11:37:28 AM [main] [debug] jEdit: after splash screen activation:331 ms
+11:37:28 AM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\activity.log" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\activity.log~1~"
+11:37:28 AM [main] [notice] jEdit: jEdit version 5.5.0
+11:37:28 AM [main] [message] jEdit: Settings directory is C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings
+11:37:28 AM [main] [message] jEdit: jEdit home directory is C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build
+11:37:28 AM [main] [debug] SplashScreen: init:17/183ms
+11:37:28 AM [main] [debug] SplashScreen: init system properties:22/205ms
+11:37:28 AM [main] [message] BeanShell: Beanshell Init
+11:37:28 AM [main] [debug] SplashScreen: init beanshell:35/240ms
+11:37:28 AM [main] [debug] SplashScreen: loading site properties:8/248ms
+11:37:28 AM [main] [debug] SplashScreen: loading user properties:9/257ms
+11:37:28 AM [main] [debug] GUIUtilities: Icon theme set to: tango
+11:37:28 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+11:37:28 AM [main] [debug] SplashScreen: init GUI:3/260ms
+11:37:28 AM [main] [debug] EditServer: jEdit server started on port 51362
+11:37:28 AM [main] [debug] EditServer: Authorization key is 820972924
+11:37:28 AM [main] [debug] SplashScreen: init server:7/267ms
+11:37:28 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+11:37:28 AM [main] [debug] SplashScreen: init look and feel:6/273ms
+11:37:28 AM [main] [debug] SplashScreen: init VFS Manager:2/275ms
+11:37:28 AM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/binhd/Documents/GitHub/cs515-801-s20-Doan-jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+11:37:28 AM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/binhd/Documents/GitHub/cs515-801-s20-Doan-jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+11:37:28 AM [main] [debug] SplashScreen: init resources:81/356ms
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+11:37:28 AM [main] [debug] SplashScreen: Migrate keymaps:74/430ms
+11:37:28 AM [main] [notice] jEdit: Loading plugins from C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:37:28 AM [main] [notice] jEdit: Loading plugins from C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\jars
+11:37:28 AM [main] [debug] SplashScreen: init plugins:16/446ms
+11:37:28 AM [main] [message] HistoryModel: Loading history
+11:37:28 AM [main] [debug] SplashScreen: init history model:3/449ms
+11:37:28 AM [main] [message] BufferHistory: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml
+11:37:28 AM [main] [debug] SplashScreen: init buffer history:7/456ms
+11:37:28 AM [main] [message] KillRing: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml
+11:37:28 AM [main] [debug] SplashScreen: init killring:11/467ms
+11:37:28 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+11:37:28 AM [main] [debug] jEdit: SOCKS proxy disabled
+11:37:28 AM [main] [debug] jEdit: HTTP proxy disabled
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+11:37:28 AM [main] [debug] SplashScreen: init various properties:58/525ms
+11:37:28 AM [main] [message] jEdit: Loading mode catalog file C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\modes\catalog
+11:37:28 AM [main] [message] jEdit: Loading mode catalog file C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\modes\catalog
+11:37:28 AM [main] [debug] SplashScreen: init modes:49/574ms
+11:37:28 AM [main] [debug] SplashScreen: activate plugins:3/577ms
+11:37:28 AM [main] [debug] Macros: Registered beanshell macro handler
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+11:37:28 AM [main] [debug] SplashScreen: init macros:26/603ms
+11:37:28 AM [main] [message] BeanShell: Running script C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\startup\startup.bsh
+11:37:28 AM [main] [notice] jEdit$5: Loading edit mode C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\modes\text.xml
+11:37:28 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+11:37:28 AM [main] [debug] SplashScreen: run startup scripts:149/752ms
+11:37:28 AM [main] [debug] SplashScreen: run startup scripts:2/754ms
+11:37:28 AM [main] [debug] SplashScreen: run startup scripts:4/756ms
+11:37:28 AM [main] [debug] jEdit: main done:941 ms
+11:37:28 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:37:28 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)]
+11:37:29 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+11:37:29 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:37:29 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),-1)
+11:37:29 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: Buffer added Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\) at 0
+11:37:29 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:37:29 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),0)
+11:37:29 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\),1)
+11:37:29 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+11:37:29 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+11:37:29 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1438 ms
+11:37:29 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:37:29 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+11:37:33 AM [AWT-EventQueue-0] [debug] PluginJAR: Opening C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar
+11:37:33 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:37:58 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\perspective.xml~1~"
+11:44:04 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:44:04 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NullPointerException
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at sun.awt.windows.WInputMethod$1.run(WInputMethod.java:592)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:733)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+11:44:04 AM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+11:44:06 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml
+11:44:06 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\perspective.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\perspective.xml~1~"
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+11:44:06 AM [AWT-EventQueue-0] [debug] BufferSet: 724278451: Buffer removed Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\)
+11:44:06 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\GitHub\cs515-801-s20-Doan-jEdit\) is in no bufferSet anymore, closing it
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:44:06 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+11:44:06 AM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml
+11:44:06 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\recent.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\recent.xml~1~"
+11:44:06 AM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml
+11:44:06 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\killring.xml" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\killring.xml~1~"
+11:44:06 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\properties" to "C:\Users\binhd\Documents\GitHub\cs515-801-s20-Doan-jEdit\build\settings\settings-backup\properties~1~"

@@ -1,0 +1,9 @@
+[action]
+global-options
+insert-newline-indent
+insert-tab-indent
+backspace
+undo
+prev-char
+next-char
+delete
