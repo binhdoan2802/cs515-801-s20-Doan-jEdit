@@ -387,7 +387,8 @@ view=new-view \
 	 %buffersets \
 	 - \
 	 set-view-title \
-	 toggle-full-screen
+	 toggle-full-screen \
+	 toggle-scrollbars
 new-view.icon.small=16x16/actions/window-new.png
 new-plain-view.icon.small=16x16/actions/window-new.png
 close-view.icon.small=16x16/actions/document-close.png

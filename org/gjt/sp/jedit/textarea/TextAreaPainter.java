@@ -911,6 +911,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		}
 
 		textArea.updateMaxHorizontalScrollWidth();
+		textArea.showScrollBars();	// always show scroll bars or only show as needed
 	} //}}}
 
 	//{{{ nextTabStop() method

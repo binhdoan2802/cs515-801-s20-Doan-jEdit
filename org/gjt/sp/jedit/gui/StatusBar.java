@@ -334,6 +334,9 @@ public class StatusBar extends JPanel
 		panel.add(BorderLayout.CENTER, messageComp);
 	} //}}}
 
+	//{{{ countWordsOffset() method
+	// input: a string mixed of words and spaces
+	// output: returns a number of words within the input string
 	public int countWordsOffset(String wordsOffset)
 	{
 		int numberOfWordsOffset = 0;	
@@ -347,7 +350,7 @@ public class StatusBar extends JPanel
 			}
 		}
 		return numberOfWordsOffset;
-	}
+	} //}}}
 	
 	//{{{ updateCaretStatus() method
 	/** Updates the status bar with information about the caret position, line number, etc */

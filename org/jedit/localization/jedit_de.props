@@ -312,6 +312,7 @@ show-context-menu.label=Zeige Kontextmenü
 set-view-title.label=Titel für Ansicht setzen...
 set-view-title.tooltip=Setzt den Titel eines Hauptfensters zwecks einfacher Identifizierung auf dem Desktop
 toggle-full-screen.label=Voll$bildmodus Ein/Aus
+toggle-scrollbars.label=Toon altijd schuifbalken
 
 #{{{ Scrolling menu
 scrolling.label=Sc$rollen

@@ -274,6 +274,7 @@ show-context-menu.label=コンテキストメニューを表示
 set-view-title.label=ビューのタイトルを設定...
 set-view-title.tooltip=デスクトップ上で区別しやすいよう、メインウィンドウのタイトルを設定します。
 toggle-full-screen.label=フルスクリーンモードに切り替え($F)
+toggle-scrollbars.label=常にスクロールバーを表示する
 
 #{{{ Scrolling menu
 scrolling.label=スクロール($G)

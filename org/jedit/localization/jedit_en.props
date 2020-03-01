@@ -277,6 +277,7 @@ show-context-menu.label=Show Context Menu
 set-view-title.label=Set view title...
 set-view-title.tooltip=Set the title of the main window for easy identification from your desktop.
 toggle-full-screen.label=Toggle $full-screen mode
+toggle-scrollbars.label=Always show scroll bars
 
 #{{{ Scrolling menu
 scrolling.label=Scrollin$g

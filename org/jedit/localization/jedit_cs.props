@@ -274,6 +274,7 @@ show-context-menu.label=Zobrazit $kontextové menu
 set-view-title.label=Nastavit $název zobrazení
 set-view-title.tooltip=Nastaví název hlavního okna pro jednoduchou identifikaci z plochy.
 toggle-full-screen.label=Zapnout "Na celou obrazovku"
+toggle-scrollbars.label=Vždy zobrazovat posuvníky
 
 #{{{ Scrolling menu
 scrolling.label=Posunování (skrolování)

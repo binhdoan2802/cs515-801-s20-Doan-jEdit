@@ -1540,6 +1540,15 @@
 	</IS_SELECTED>
 </ACTION>
 
+<ACTION NAME="toggle-scrollbars">
+	<CODE>
+		textArea.toggleScrollBars();
+	</CODE>
+	<IS_SELECTED>
+	        textArea.isScrollBarsOn();
+	</IS_SELECTED>
+</ACTION>
+
 <ACTION NAME="toggle-gutter">
 	<CODE>
 		boolean showing = jEdit.getBooleanProperty("view.gutter.enabled");

@@ -275,6 +275,7 @@ show-context-menu.label=Show Context Menu
 set-view-title.label=jEdit 창 이름 설정...
 set-view-title.tooltip=jEdit 창 사이에 분별하기 쉽도록 이름을 붙입니다.
 toggle-full-screen.label=창 최대화 보기($f)
+toggle-scrollbars.label=항상 스크롤 막대 표시
 
 #{{{ Scrolling menu
 scrolling.label=스크롤($g)
