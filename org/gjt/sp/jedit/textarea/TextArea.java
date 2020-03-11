@@ -109,12 +109,16 @@ public abstract class TextArea extends JPanel
 		// some plugins add stuff in a "right-hand" gutter
 		RequestFocusLayerUI reqFocus = new RequestFocusLayerUI();
 		verticalBox = new Box(BoxLayout.X_AXIS);
-		verticalBox.add(new JLayer<JComponent>(
-			vertical = new JScrollBar(Adjustable.VERTICAL), reqFocus));
+		verticalLayer = new JLayer<JComponent>(
+				vertical = new JScrollBar(Adjustable.VERTICAL), reqFocus);
+		verticalBox.add(verticalLayer);
 		vertical.setRequestFocusEnabled(false);
 		add(ScrollLayout.RIGHT,verticalBox);
-		add(ScrollLayout.BOTTOM, new JLayer<JComponent>(
-			horizontal = new JScrollBar(Adjustable.HORIZONTAL), reqFocus));
+		
+		horizontalLayer = new JLayer<JComponent>(
+				horizontal = new JScrollBar(Adjustable.HORIZONTAL), reqFocus);
+		add(ScrollLayout.BOTTOM, horizontalLayer);
+		showScrollBars = true;	// set default option is to always show scroll bars 
 		horizontal.setRequestFocusEnabled(false);
 
 		horizontal.setValues(0,0,0,0);
@@ -4947,7 +4951,68 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 		else
 			return caret;
 	} //}}}
+	
+	//{{{ isScrollBarsOn() method
+	// used to display the check marked in the VieverticalLayerblic boolean isScrollBarsOn()
+	public boolean isScrollBarsOn()
+	{
+		return showScrollBars;
+	} //}}}
+	
+	//{{{ toggleScrollBars() method
+	public void toggleScrollBars()
+	{
+		showScrollBars = !showScrollBars;
+		updateScrollBar();
+		updateMaxHorizontalScrollWidth();
+	} //}}}
+	
+	//{{{ showScrollBars() method
+	// always shows scroll bars or if needed based on the user preference (showScrollBars flag)
+	public void showScrollBars()
+	{
+		final int newMax = maxHorizontalScrollWidth + charWidth;
+		final int newExtent = painter.getWidth();
+		if (newMax < newExtent)
+		{
+			// horizontal scroll bar is not needed
+			if (showScrollBars)
+			{
+				add(ScrollLayout.BOTTOM, horizontalLayer);
+			}
+			else
+			{	
+				remove(horizontalLayer);
+			}
+		}
+		else
+		{
+			// horizontal scroll bar is needed
+			add(ScrollLayout.BOTTOM, horizontalLayer);
+		}
 
+		final int lineCount = displayManager.getScrollLineCount();
+		final int visible = visibleLines - (lastLinePartial ? 1 : 0);
+		if (lineCount < visible)
+		{
+			// vertical scroll bar is not needed
+			if (showScrollBars)
+			{
+				verticalBox.add(verticalLayer);
+			}
+			else
+			{
+				verticalBox.remove(verticalLayer);
+			}
+		}
+		else
+		{
+			// vertical scroll bar is needed
+			verticalBox.add(verticalLayer);
+		}
+		validate();
+	} //}}}
+	
 	//{{{ Package-private members
 
 	static TextArea focusedComponent;
@@ -5023,6 +5088,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 		);	
 		horizontal.setUnitIncrement(10);
 		horizontal.setBlockIncrement(painter.getWidth());
+		showScrollBars();
 	} //}}}
 
 	//{{{ recalculateVisibleLines() method
@@ -5115,6 +5181,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 			};
 			ThreadUtilities.runInDispatchThread(runnable);
 		}
+		showScrollBars();
 	} //}}}
 
 	//{{{ _finishCaretUpdate() method
@@ -5277,6 +5344,10 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 	private final Box verticalBox;
 	private final JScrollBar vertical;
 	private final JScrollBar horizontal;
+
+	private JLayer<JComponent> verticalLayer;
+	private JLayer<JComponent> horizontalLayer;
+	private boolean showScrollBars;
 
 	protected JEditBuffer buffer;
 

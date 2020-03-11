@@ -274,6 +274,7 @@ show-context-menu.label=显示上下文菜单
 set-view-title.label=设置视图标题...
 set-view-title.tooltip=设置主窗口标题以方便识别
 toggle-full-screen.label=切换全屏模式(Toggle $full-screen mode)
+toggle-scrollbars.label=一律顯示滾動條
 
 #{{{ Scrolling menu
 scrolling.label=滚动(Scrollin$g)

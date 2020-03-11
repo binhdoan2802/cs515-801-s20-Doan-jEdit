@@ -275,6 +275,7 @@ show-context-menu.label=Menu contextuel
 set-view-title.label=Définir un titre à la fenêtre...
 set-view-title.tooltip=Défini le titre de la fenêtre principale pour identification aisée à partir du bureau.
 toggle-full-screen.label=Mode $plein écran
+toggle-scrollbars.label=Toujours afficher les barres de défilement
 
 #{{{ Scrolling menu
 scrolling.label=Défilemen$t
