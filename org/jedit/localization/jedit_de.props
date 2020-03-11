@@ -1814,6 +1814,8 @@ options.status.caret.virtual=Zeige aktuelle, virtuelle Spalte der Einfügemarke
 options.status.caret.offset=Zeige Offset der Einfügemarke vom Dateianfang
 options.status.caret.bufferlength=Zeige Dateilänge
 options.status.caret.title=Informationen zur Einfügemarke:
+options.status.caret.numwordsoffset=Toon het aantal woorden dat is verschoven van het begin tot het kruisje
+options.status.caret.numtotalwords=Aantal totale woorden weergeven op de huidige pagina
 #}}}
 
 #{{{ Syntax Highlighting pane
