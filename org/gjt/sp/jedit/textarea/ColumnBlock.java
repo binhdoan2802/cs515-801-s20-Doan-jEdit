@@ -402,12 +402,15 @@ public class ColumnBlock extends Rect implements Node
 	public void setTabSizeDirtyStatus(boolean dirty, boolean recursive)
 	{
 		tabSizesDirty = dirty;
-		if (recursive && children != null && !children.isEmpty())
+		if (recursive)
 		{
-			for (int i = 0; i < children.size(); i++)
+			if (children != null && !children.isEmpty())
 			{
-				((ColumnBlock) children.elementAt(i)).setTabSizeDirtyStatus(true,
-					true);
+				for (int i = 0; i < children.size(); i++)
+				{
+					((ColumnBlock) children.elementAt(i)).setTabSizeDirtyStatus(true,
+						true);
+				}
 			}
 		}
 	}//}}}
